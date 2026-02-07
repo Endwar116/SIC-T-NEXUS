@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "note": "This is an example configuration. Do not commit actual credentials.",
+  "services": {
+    "github": {
+      "owner": "Endwar116",
+      "repos": ["SIC-T-NEXUS", "SIC-T-LICENSED"]
+    },
+    "slack": {
+      "channels": {
+        "drive_log": "C0ABBT7C50W"
+      }
+    },
+    "notion": {
+      "pages": {
+        "sic_hub": "2ff1dd0d-9fe8-8171-b6be-c210edf54bde",
+        "weide": "2fb1dd0d-9fe8-81ff-8868-c52fcdc301f3"
+      }
+    },
+    "google_drive": {
+      "root_folder": "1vTZOLo0hxdhjgmFUpfPko8_1VmH3iPzp"
+    }
+  },
+  "ai_permissions": {
+    "can_create_branch": true,
+    "can_submit_pr": true,
+    "can_merge": false,
+    "can_push_main": false
+  }
+}
