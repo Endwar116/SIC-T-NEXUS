@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIC-JS Format Schema",
+  "description": "Schema for SIC/T governance and decision documents",
+  "type": "object",
+  "required": ["format", "version"],
+  "properties": {
+    "format": {
+      "type": "string",
+      "const": "sic-js"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "member_profile",
+        "decision_record",
+        "handoff_log",
+        "governance_rule",
+        "fail_closed_report",
+        "evaluation"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  }
+}
