@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-07",
+  "fail_closed_on": [
+    "missing_artifacts",
+    "unclear_scope",
+    "licensed_scope_mixed",
+    "mirror_without_rules",
+    "claims_of_reading_unprovided_content",
+    "governance_rule_missing",
+    "permission_undefined"
+  ],
+  "required_response_fields": [
+    "why_stop",
+    "minimum_required_next",
+    "affected_scope"
+  ],
+  "output_format": "sic-js",
+  "escalation": {
+    "default_contact": "Andwar",
+    "fallback_protocol": "DELEGATION_PROTOCOL.md"
+  }
+}
