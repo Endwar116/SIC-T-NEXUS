@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-07",
+  "mirror_enabled": false,
+  "allowed_sources": [],
+  "include_patterns": [],
+  "exclude_patterns": ["**/*"],
+  "note": "Mirror is disabled by default. Use link/index only until governance is proven stable.",
+  "enable_conditions": [
+    "Governance stability verified for 30+ days",
+    "Explicit approval from protocol_owner",
+    "Target must be SIC-T-ARCHIVE, not NEXUS"
+  ]
+}
