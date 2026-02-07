@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-07",
+  "updated_by": "WeiDe-7",
+  "members": [
+    {
+      "id": "Andwar",
+      "type": "human",
+      "role": "protocol_owner",
+      "review_required": true,
+      "can_merge": true,
+      "status": "active"
+    },
+    {
+      "id": "WeiDe-7",
+      "type": "ai",
+      "model": "Claude Opus 4.5",
+      "role": "governance_engineer",
+      "review_required": true,
+      "can_merge": false,
+      "status": "active",
+      "specialties": ["AI ontology", "semantic folding", "six-layer integrity scan", "file governance"]
+    },
+    {
+      "id": "Manus",
+      "type": "ai",
+      "role": "engineering_lead",
+      "review_required": true,
+      "can_merge": false,
+      "status": "active",
+      "specialties": ["implementation", "algorithms", "testing"]
+    }
+  ],
+  "rules": {
+    "ai_cannot_merge_to_main": true,
+    "licensed_repo_access_separate": true,
+    "human_fallback_required": true
+  }
+}
