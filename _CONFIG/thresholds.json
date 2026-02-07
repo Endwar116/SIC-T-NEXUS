@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "source": "ANCESTOR_FILE (Section D)",
+  "core": {
+    "S_STAR": {
+      "value": 2.76,
+      "name": "Semantic Phase Transition Point",
+      "origin": "Chandrasekhar Limit analogy"
+    }
+  },
+  "thresholds": {
+    "SAFE": {
+      "range": [0, 2.76],
+      "action": "proceed"
+    },
+    "CRITICAL": {
+      "value": 4.14,
+      "formula": "S★ × 1.5",
+      "action": "warn_and_proceed_carefully"
+    },
+    "COLLAPSE": {
+      "value": 5.0,
+      "formula": "S★ × 1.81",
+      "action": "stop_and_confirm"
+    },
+    "LETHAL": {
+      "value": 5.52,
+      "formula": "S★ × 2.0",
+      "action": "hard_stop"
+    }
+  },
+  "other": {
+    "TENSION_THRESHOLD": 0.8,
+    "SIMILARITY_THRESHOLD": 0.99
+  }
+}
