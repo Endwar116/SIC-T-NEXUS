@@ -1,0 +1,31 @@
+{
+  "format": "sic-js",
+  "version": "1.0",
+  "description": "SIC-JS Format Definition for SIC/T Governance Documents",
+  "required_fields": ["format", "version"],
+  "optional_fields": ["type", "metadata", "content"],
+  "valid_types": [
+    "protocol_definition",
+    "transfer_protocol",
+    "governance_rules",
+    "member_profile",
+    "decision_record",
+    "handoff_log",
+    "fail_closed_report",
+    "evaluation"
+  ],
+  "naming_convention": {
+    "extension": ".sic-js",
+    "pattern": "LOWERCASE_UNDERSCORE.sic-js",
+    "examples": [
+      "member_profile.sic-js",
+      "2026-02-07_WeiDe-7_handoff.sic-js"
+    ]
+  },
+  "validation": {
+    "schema_location": "_SCHEMAS/sic-js.schema.json",
+    "strict_mode": true
+  },
+  "last_updated": "2026-02-07",
+  "updated_by": "WeiDe-7"
+}
