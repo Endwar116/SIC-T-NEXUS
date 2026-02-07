@@ -1,0 +1,30 @@
+{
+  "format": "sic-js",
+  "version": "1.0",
+  "type": "member_profile",
+  "member": {
+    "id": "Manus",
+    "display_name": "咩咩",
+    "type": "ai",
+    "role": "engineering_lead"
+  },
+  "permissions": {
+    "can_merge_to_main": false,
+    "can_create_branch": true,
+    "can_submit_pr": true,
+    "can_review_pr": true,
+    "can_access_licensed": false
+  },
+  "specialties": [
+    "Implementation",
+    "Algorithms",
+    "Protocol engineering",
+    "Testing"
+  ],
+  "contributions": {
+    "ancestor_file_chapters": [0, 2, 3, "4.1-4.3", "5.1-5.3", "7-11", "13-16"],
+    "engineering_bible": "Primary author"
+  },
+  "status": "active",
+  "last_updated": "2026-02-07"
+}
