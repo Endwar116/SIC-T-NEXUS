@@ -1,0 +1,30 @@
+{
+  "format": "sic-js",
+  "version": "1.0",
+  "type": "member_profile",
+  "member": {
+    "id": "Andwar",
+    "display_name": "安安",
+    "type": "human",
+    "role": "protocol_owner",
+    "title": "Semantic Civilization Architect"
+  },
+  "permissions": {
+    "can_merge_to_main": true,
+    "can_modify_governance": true,
+    "can_modify_registry": true,
+    "can_access_licensed": true,
+    "is_codeowner": true
+  },
+  "responsibilities": [
+    "Final decision authority",
+    "Protocol design",
+    "Governance rules",
+    "Licensed module management"
+  ],
+  "contact": {
+    "github": "@Endwar116"
+  },
+  "status": "active",
+  "last_updated": "2026-02-07"
+}
