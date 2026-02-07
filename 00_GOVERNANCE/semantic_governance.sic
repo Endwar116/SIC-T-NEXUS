@@ -1,0 +1,36 @@
+{
+  "format": "sic",
+  "version": "1.0",
+  "type": "governance_rules",
+  "governance": {
+    "babel_protocol": {
+      "full_constitution": 28936,
+      "core_axioms": 120,
+      "minimal_axioms": 16,
+      "ten_commandments": 10
+    },
+    "thresholds": {
+      "S_STAR": 2.76,
+      "CRITICAL": 4.14,
+      "COLLAPSE": 5.0,
+      "LETHAL": 5.52
+    },
+    "fail_closed_conditions": [
+      "missing_artifacts",
+      "unclear_scope",
+      "licensed_scope_mixed",
+      "mirror_without_rules",
+      "claims_of_reading_unprovided_content",
+      "governance_rule_missing",
+      "permission_undefined"
+    ]
+  },
+  "enforcement": {
+    "ai_cannot_merge_to_main": true,
+    "codeowners_must_include_human": true,
+    "licensed_separate_from_collaborative": true,
+    "mirror_disabled_by_default": true
+  },
+  "last_updated": "2026-02-07",
+  "updated_by": "WeiDe-7"
+}
