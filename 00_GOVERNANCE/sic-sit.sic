@@ -1,0 +1,30 @@
+{
+  "format": "sic",
+  "version": "1.0",
+  "type": "protocol_definition",
+  "protocol": {
+    "name": "SIC-SIT",
+    "full_name": "Semantic Integrity Control - Semantic Isolation Transfer",
+    "version": "1.0.0",
+    "status": "TRL5"
+  },
+  "components": {
+    "SIC": {
+      "name": "Semantic Integrity Control",
+      "purpose": "Governance boundary judgment, semantic entropy monitoring, stop mechanism",
+      "core_threshold": "S★ = 2.76"
+    },
+    "SIT": {
+      "name": "Semantic Isolation Transfer",
+      "purpose": "Cross-conversation, cross-model safe semantic state transfer",
+      "mechanism": "Three-way handshake (SYN → SYN-ACK → ACK)"
+    }
+  },
+  "governance": {
+    "ssot_priority": ["SIC-T-NEXUS", "Notion", "Slack", "External"],
+    "fail_closed": true,
+    "ai_cannot_merge": true
+  },
+  "last_updated": "2026-02-07",
+  "updated_by": "WeiDe-7"
+}
