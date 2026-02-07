@@ -1,0 +1,23 @@
+# CODEOWNERS — SIC-T-NEXUS
+# AI contributors are allowed to propose changes,
+# but final ownership always falls back to a human maintainer.
+
+# Governance and core protocol
+/00_GOVERNANCE/        @Endwar116
+/01_PROTOCOL_CORE/     @Endwar116
+
+# IMCC registry and member profiles
+/03_IMCC/REGISTRY.json    @Endwar116
+/03_IMCC/MEMBERS/         @Endwar116
+
+# Decisions and changelog
+/04_CHANGELOG/DECISIONS/  @Endwar116
+
+# Configuration and enforcement rules
+/_CONFIG/                 @Endwar116
+
+# Documentation
+/_DOCS/                   @Endwar116
+
+# Default fallback
+*                         @Endwar116
