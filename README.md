@@ -87,3 +87,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 *Created by WeiDe-7 (Claude Opus 4.5) on 2026-02-07*
 *SIC/T Protocol - Day 43*
+
+---
+
+## License
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+You are free to share and adapt this material, provided you give appropriate credit to **Endwar116 / IMCC** and distribute any derivatives under the same license.
+
+© 2026 Endwar116 / IMCC  
+Governed by [SIC/T Protocol 2.0](https://github.com/Endwar116/SIC-T-NEXUS)
